@@ -1,0 +1,95 @@
+/* style="transform-origin: 50% 50% 0px; transform: translate3d(0px, 0px, 0px); opacity: 1;"><
+div id="n2-ss-2item1" class="n2-font-5f5e59e83ef8237f55fb2cf67e957a31-hover   n2-ss-item-content n2-ss-text n2-ow" 
+style="display:block;">We Collate Global Mining Events Onto One Website</div></div>
+Now you only need to look in one place to know what mining events are coming up.
+<div>Join our email list for monthly event updates</div>
+ <p className={styles.p1}>We Collate Global Mining Events Onto One Website</p>
+    <p className={styles.p2}>Now you only need to look in one place to know what mining events are coming up.</p>
+    <button className={styles.b1}>Join our email list for monthly event updates</button>
+*/
+.main{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+}
+.swiper {
+    width:100%;
+    position:relative;
+}
+
+.swiper_slide{
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
+
+.img{
+    
+    width: 100%;
+    height: 500px;
+    opacity: 0.8;
+}
+
+.slider_container{
+    position: relative;
+    width: 100%;
+    height: 80vh;
+}
+
+.p_container{
+    display: flex;
+    position:static;
+    width: 100%;
+    height: 20vh;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.p1{
+    position:  absolute;
+    top:20%;
+    left: 25%;
+    color:coral;
+    font-size: 45px;
+    font-weight: bold;
+    text-align: center;
+    z-index: 1;
+    opacity: 1;
+    transform-origin: 50% 50% 0px;
+    transform: translate3d(0px, 0px, 0px);
+}
+
+.p2{
+    position:  absolute;
+    top:35%;
+    left: 25%;
+    color:coral;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    z-index: 1;
+}
+
+.p3{
+    position:  absolute;
+    top:50%;
+    left: 25%;
+    background-color: coral;
+    color:white;
+    font-size: 35px;
+    font-weight: bold;
+    border: 1px;
+    z-index: 1;
+}
+
+.top {
+    clip-path: polygon(0 0,100% 0,100% calc(100% - 400px),calc(50% + 2835.64px) calc(100% - 400px),50% 100%,calc(50% - 2835.64px) calc(100% - 400px),0 calc(100% - 400px));
+  }
+
+

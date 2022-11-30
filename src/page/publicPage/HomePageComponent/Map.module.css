@@ -1,0 +1,35 @@
+.main {
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    padding-top: 10rem;
+    padding-bottom: 50rem;
+}
+
+.title{
+    font-weight: bold;
+    font-size: 35px;
+    background-color: transparent;
+    border: none;
+    text-align: center;
+    position: static;
+    color: rgb(0, 153, 255);
+}
+.title:hover{
+    color:rgb(3, 187, 3);
+}
+
+.title2{
+    font-weight: bold;
+    font-size: 15px;
+    color: grey;
+    background-color: transparent;
+    border: none;
+    text-align: center;
+    position: static;
+    padding-bottom: 100px;
+}
